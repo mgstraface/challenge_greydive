@@ -28,7 +28,7 @@ export function VideoTest() {
 
 				<h1>{videoT.cliente.charAt(0).toUpperCase() + videoT.cliente.slice(1)}</h1>
 				<h3>Test: Test de usabilidad en el sitio web</h3>
-				<h5>Testeador 1</h5>
+				<h3>{videoT.plataforma}</h3>
 
 				<CardMedia className={styles.video} component="iframe" src={videoT.linkVideo} />
 
